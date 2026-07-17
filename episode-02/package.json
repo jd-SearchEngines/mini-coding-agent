@@ -1,0 +1,34 @@
+{
+  "name": "mini-coding-agent",
+  "version": "0.2.0",
+  "description": "Mini Coding Agent Episode 02: Tool Protocol and a safe Read Tool",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "tsx src/cli/main.ts",
+    "demo:episode-01": "tsx src/cli/episode-01-demo.ts",
+    "demo:episode-02": "tsx src/cli/episode-02-demo.ts",
+    "build": "tsc -p tsconfig.build.json",
+    "start": "node dist/cli/main.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run typecheck && npm run lint && npm test && npm run build"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "@types/node": "^22.0.0",
+    "eslint": "^9.0.0",
+    "prettier": "^3.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0",
+    "typescript-eslint": "^8.0.0",
+    "vitest": "^3.0.0"
+  }
+}

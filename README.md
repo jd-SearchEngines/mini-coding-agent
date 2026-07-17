@@ -5,7 +5,7 @@
 ## Episodes
 
 - [Episode 01：Agent 怎么连续思考？从一次模型调用到 SessionRuntime](episode-01/)
-- Episode 02：Tool Protocol × Read Tool（即将更新）
+- [Episode 02：模型如何操作代码？Tool Protocol × Read Tool](episode-02/)
 - Episode 03：即将更新
 
 ## 运行 Episode 01
@@ -37,6 +37,14 @@ mini-coding-agent/
 ```
 
 新一集会保留上一集已经实现的能力，并在独立目录中继续扩展，方便读者切换和比较不同阶段的完整代码。
+
+运行 Episode 02：
+
+```bash
+cd episode-02
+npm install
+npm run demo:episode-02
+```
 
 ## License
 

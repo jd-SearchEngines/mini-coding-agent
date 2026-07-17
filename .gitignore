@@ -4,6 +4,6 @@ coverage/
 .env
 .env.*
 !.env.example
-transcripts/*.jsonl
+**/transcripts/*.jsonl
 *.log
 .DS_Store
